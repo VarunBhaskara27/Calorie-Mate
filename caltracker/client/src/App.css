@@ -1,0 +1,173 @@
+.last-row {
+  font-weight: bold;
+}
+
+.CalOverview {
+  float: right;
+  text-align: right;
+  margin-right: 28px;
+  position: relative;
+  bottom: 12px;
+}
+
+.CalOverview img {
+  width: 110px;
+  margin: 32px 0 50px 0;
+}
+
+.CalOverview__net {
+  display: block;
+  font-size: 54px;
+  font-weight: bold;
+  color: #222722;
+}
+
+.CalOverview__plusminuscontainer {
+  display: block;
+  position: relative;
+  bottom: 10px;
+}
+
+.CalOverview__plusminus {
+  display: block;
+  width: 125px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+}
+
+.CalOverview__plusminus--food {
+  color: red;
+  margin-right: 20px;
+}
+
+.CalOverview__plusminus--exercise {
+  color: green;
+}
+
+.NetCalories {
+  padding: 0;
+  color: #222722;
+  height: 126px;
+}
+
+.NetCalories__number {
+  font-size: 44px;
+  font-weight: bold;
+  padding-right: 18px;
+}
+
+.NetCalories__label {
+  position: relative;
+  bottom: 9px;
+}
+
+.NetCalories__equation {
+  display: block;
+  width: 100%;
+}
+
+.NetCalories__number.food {
+  color: #c22317;
+}
+
+.NetCalories__number.exercise {
+  color: #08ae23;
+}
+
+.NetCalories__number.net {
+  font-size: 54px;
+  float: right;
+  padding: 0;
+}
+
+.NetCalories__minussign,
+.NetCalories__equals {
+  font-size: 54px;
+  font-weight: bold;
+  padding: 0 34px;
+}
+
+.NetCalories__equals {
+  padding: 0 0 0 56px;
+}
+
+.NetCalories__goaldifference {
+  display: block;
+  float: right;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  bottom: 20px;
+}
+
+.NetCalories__goaldifference.under {
+  color: green;
+}
+
+.NetCalories__goaldifference.over {
+  color: #c22317;
+}
+
+.MacroTotals {
+  padding: 0;
+}
+
+.MacroTotals__macro {
+  margin-right: 50px;
+}
+
+.MacroTotals__macro.protein {
+  margin-right: 0;
+}
+
+.MacroTotals__label {
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.MacroTotals__macro img {
+  max-height: 26px;
+  position: relative;
+  bottom: 4px;
+  margin-right: 12px;
+}
+
+.MacroTotals__macro--value {
+  font-weight: bold;
+  font-size: 22px;
+  color: #222722;
+  margin-right: 8px;
+}
+
+.MacroTotals__macro--goaldifference {
+  position: relative;
+  bottom: 2px;
+}
+
+.MacroTotals__macro--goaldifference.under {
+  color: #487f3d;
+}
+
+.MacroTotals__macro--goaldifference.over {
+  color: #854040;
+}
+
+.MacroTotals__caloriesgoal {
+  float: right;
+  font-size: 20px;
+  color: #6c6c6c;
+}
+
+.MacroTotals__caloriesgoal a {
+  text-decoration: underline;
+  color: #2f822f;
+}
+
+.MacroTotals__caloriesgoal a:hover {
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
